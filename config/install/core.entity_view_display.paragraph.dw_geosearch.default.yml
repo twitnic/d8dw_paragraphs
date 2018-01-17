@@ -1,0 +1,9 @@
+langcode: en
+status: true
+id: paragraph.dw_geosearch.default
+targetEntityType: paragraph
+bundle: dw_geosearch
+mode: default
+hidden:
+  created: true
+  uid: true
