@@ -1,0 +1,21 @@
+{
+  "name": "twitnic/d8dw_paragraphs",
+  "license": "MIT",
+  "keywords": [
+    "drupal",
+    "drupal 8",
+    "Bootstrap",
+    "Paragraphs"
+  ],
+  "type": "drupal-module",
+
+  "description": "Datenwerk Drupal 8 Paragraphs",
+  "homepage": "https://github.com/twitnic/d8dw_paragraphs",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/twitnic/d8dw_paragraphs/issues",
+    "source": "https://github.com/twitnic/d8dw_paragraphs"
+  },
+  "require": {
+  }
+}
