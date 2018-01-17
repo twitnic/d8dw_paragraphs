@@ -5,8 +5,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.bp_image_field
-field_name: bp_image_field
+id: paragraph.dw_image_field
+field_name: dw_image_field
 entity_type: paragraph
 type: image
 settings:
