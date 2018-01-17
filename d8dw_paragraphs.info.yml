@@ -1,0 +1,24 @@
+name: Datenwerk Bootstrap Paragraphs Addon
+type: module
+description: A suite of Paragraph bundles made with the Boostrap framework.
+# core: 8.x
+package: Datenwerk
+dependencies:
+  - entity_reference_revisions
+  - field
+  - file
+  - filter
+  - image
+  - link
+  - options
+  - paragraphs
+  - system
+  - text
+  - user
+  - views
+  - viewsreference
+
+version: 8.x-1.0-dev2'
+core: 8.x
+project: d8dw_paragraphs
+datestamp: 1507604048
