@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * d8dw Paragraphs module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function d8dw_paragraphs_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__dw_geosearch' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}
