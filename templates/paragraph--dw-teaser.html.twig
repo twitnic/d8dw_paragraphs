@@ -38,7 +38,7 @@
 #}
 
 {{ attach_library('bootstrap_paragraphs/bootstrap-paragraphs') }}
-{{ attach_library('bootstrap_paragraphs/bp-image') }}
+{{ attach_library('bootstrap_paragraphs/dw-teaser') }}
 
 {# Renders Width field. #}
 {# Sets class name from values in database. #}
@@ -144,14 +144,14 @@
 
 {# Prints div with classes, and content without Width and Background. #}
 <div{{ attributes.addClass(classes) }}>
-  <div class="paragraph__column">
-      {{ title_suffix }}
-      {% if content.bp_link|render is not empty %}
-    <a href="{{ content.bp_link.0['#url'] }}">
-        {% endif %}
-        {{ content|without('bp_width', 'bp_background', 'bp_link') }}
+    <div class="paragraph__column">
+        {{ title_suffix }}
         {% if content.bp_link|render is not empty %}
-    </a>
-      {% endif %}
-  </div>
+        <a href="{{ content.bp_link.0['#url'] }}">
+            {% endif %}
+            {{ content|without('dw_width', 'dw_background', 'dw_link') }}
+            {% if content.bp_link|render is not empty %}
+        </a>
+        {% endif %}
+    </div>
 </div>
