@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.bp_width
-    - paragraphs.paragraphs_type.bp_image
+    - field.storage.paragraph.dw_width
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - options
-id: paragraph.bp_image.bp_width
-field_name: bp_width
+id: paragraph.dw_teaser.dw_width
+field_name: dw_width
 entity_type: paragraph
-bundle: bp_image
+bundle: dw_teaser
 label: Width
 description: ''
 required: false

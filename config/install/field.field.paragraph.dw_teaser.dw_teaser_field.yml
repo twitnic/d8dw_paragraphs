@@ -2,22 +2,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.bp_image_field
-    - paragraphs.paragraphs_type.bp_image
+    - field.storage.paragraph.dw_teaser_field
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - image
-id: paragraph.bp_image.bp_image_field
-field_name: bp_image_field
+id: paragraph.dw_teaser.dw_teaser_field
+field_name: dw_teaser_field
 entity_type: paragraph
-bundle: bp_image
-label: Image
+bundle: dw_teaser
+label: DwTeaser
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_directory: 'dwteaser/[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

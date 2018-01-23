@@ -2,27 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bp_image.bp_background
-    - field.field.paragraph.bp_image.bp_image_field
-    - field.field.paragraph.bp_image.bp_link
-    - field.field.paragraph.bp_image.bp_width
-    - paragraphs.paragraphs_type.bp_image
+    - field.field.paragraph.dw_image.dw_background
+    - field.field.paragraph.dw_teaser.dw_teaser_field
+    - field.field.paragraph.dw_image.dw_link
+    - field.field.paragraph.dw_image.dw_text
+    - field.field.paragraph.dw_image.dw_width
+    - paragraphs.paragraphs_type.dw_image
   module:
     - image
     - link
+    - text
     - options
-id: paragraph.bp_image.default
+id: paragraph.dw_teaser.default
 targetEntityType: paragraph
-bundle: bp_image
+bundle: dw_teaser
 mode: default
 content:
-  bp_background:
+  dw_background:
     weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_key
-  bp_image_field:
+  dw_teaser_field:
     weight: 2
     label: hidden
     settings:
@@ -30,7 +32,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
-  bp_link:
+  dw_link:
     weight: 3
     label: hidden
     settings:
@@ -41,12 +43,18 @@ content:
       target: '0'
     third_party_settings: {  }
     type: link_separate
-  bp_width:
+  dw_width:
     weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_key
+  dw_text:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
 hidden:
   created: true
   uid: true

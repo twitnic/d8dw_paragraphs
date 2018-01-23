@@ -2,64 +2,53 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bp_modal.bp_background
-    - field.field.paragraph.bp_modal.bp_modal_body
-    - field.field.paragraph.bp_modal.bp_modal_button_text
-    - field.field.paragraph.bp_modal.bp_modal_footer
-    - field.field.paragraph.bp_modal.bp_modal_title
-    - field.field.paragraph.bp_modal.bp_width
-    - paragraphs.paragraphs_type.bp_modal
+    - field.field.paragraph.dw_teaser.dw_background
+    - field.field.paragraph.dw_teaser.dw_teaser_field
+    - field.field.paragraph.dw_teaser.dw_link
+    - field.field.paragraph.dw_teaser.dw_text
+    - field.field.paragraph.dw_teaser.dw_width
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.dw_teaser
   module:
-    - paragraphs
-id: paragraph.bp_modal.default
+    - image
+    - link
+    - text
+id: paragraph.dw_teaser.default
 targetEntityType: paragraph
-bundle: bp_modal
+bundle: dw_teaser
 mode: default
 content:
-  bp_background:
+  dw_background:
     weight: 0
     settings: {  }
     third_party_settings: {  }
     type: options_select
-  bp_modal_body:
-    type: entity_reference_paragraphs
-    weight: 4
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: closed
-      add_mode: dropdown
-      form_display_mode: default
-    third_party_settings: {  }
-  bp_modal_button_text:
+  dw_teaser_field:
     weight: 2
     settings:
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: string_textfield
-  bp_modal_footer:
-    type: entity_reference_paragraphs
-    weight: 5
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: closed
-      add_mode: dropdown
-      form_display_mode: default
-    third_party_settings: {  }
-  bp_modal_title:
+    type: image_image
+  dw_link:
     weight: 3
     settings:
-      size: 60
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: string_textfield
-  bp_width:
+    type: link_default
+  dw_width:
     weight: 1
     settings: {  }
     third_party_settings: {  }
     type: options_select
+  dw_text:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
 hidden:
   created: true
   status: true

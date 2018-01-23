@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.bp_background
-    - paragraphs.paragraphs_type.dw_image
+    - field.storage.paragraph.dw_background
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - options
-id: paragraph.dw_image.bp_background
-field_name: bp_background
+id: paragraph.dw_teaser.bp_background
+field_name: dw_background
 entity_type: paragraph
-bundle: dw_image
+bundle: dw_teaser
 label: Background
 description: ''
 required: false

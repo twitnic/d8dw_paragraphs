@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.bp_link
-    - paragraphs.paragraphs_type.bp_image
+    - field.storage.paragraph.dw_link
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - link
-id: paragraph.bp_image.bp_link
-field_name: bp_link
+id: paragraph.dw_teaser.dw_link
+field_name: dw_link
 entity_type: paragraph
-bundle: bp_image
-label: Link
+bundle: dw_teaser
+label: DwLink
 description: ''
 required: false
 translatable: false
