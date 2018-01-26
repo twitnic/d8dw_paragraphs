@@ -2,12 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dw_image.dw_background
+    - field.field.paragraph.dw_teaser.dw_background
     - field.field.paragraph.dw_teaser.dw_teaser_field
-    - field.field.paragraph.dw_image.dw_link
-    - field.field.paragraph.dw_image.dw_text
-    - field.field.paragraph.dw_image.dw_width
-    - paragraphs.paragraphs_type.dw_image
+    - field.field.paragraph.dw_teaser.dw_link
+    - field.field.paragraph.dw_teaser.dw_text
+    - field.field.paragraph.dw_teaser.dw_width
+    - field.field.paragraph.dw_teaser.dw_align
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - image
     - link
@@ -55,6 +56,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+  dw_align:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
 hidden:
   created: true
   uid: true

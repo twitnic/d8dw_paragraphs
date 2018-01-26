@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.dw_teaser.dw_link
     - field.field.paragraph.dw_teaser.dw_text
     - field.field.paragraph.dw_teaser.dw_width
+    - field.field.paragraph.dw_teaser.dw_align
     - image.style.thumbnail
     - paragraphs.paragraphs_type.dw_teaser
   module:
@@ -49,6 +50,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+  dw_align:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
 hidden:
   created: true
   status: true
