@@ -2,6 +2,8 @@
 
 # Changelog
 
+* 0.2.4 : added missing field.storage.paragraph.dw_teaser_field
+* 0.2.3 : corrected readme.md
 * 0.2.2 : corrected info.yml
 * 0.2.2 : corrected readme.md
 * 0.2.1 : bugfix for teaser paragraph
