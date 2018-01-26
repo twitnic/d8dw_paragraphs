@@ -18,7 +18,7 @@ dependencies:
   - views
   - viewsreference
 
-version: 8.x-1.0-dev6'
+version: 8.x-0.2-dev3'
 core: 8.x
 project: d8dw_paragraphs
 datestamp: 1507604048
