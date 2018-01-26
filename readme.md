@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.2.2 : corrected info.yml
 * 0.2.2 : corrected readme.md
 * 0.2.1 : bugfix for teaser paragraph
 * 0.2.0 : Semantic Versioning
