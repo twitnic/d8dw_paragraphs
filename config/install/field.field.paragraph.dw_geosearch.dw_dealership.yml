@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_width
+    - paragraphs.paragraphs_type.dw_geosearch
+  module:
+    - options
+id: paragraph.dw_geosearch.dw_dealership
+field_name: dw_dealership
+entity_type: paragraph
+bundle: dw_geosearch
+label: Dealership
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

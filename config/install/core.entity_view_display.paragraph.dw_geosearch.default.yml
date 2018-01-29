@@ -1,9 +1,22 @@
 langcode: en
 status: true
+dependencies:
+  config:
+    - field.field.paragraph.dw_geosearch.dw_dealership
+    - paragraphs.paragraphs_type.dw_geosearch
+  module:
+    - options
 id: paragraph.dw_geosearch.default
 targetEntityType: paragraph
 bundle: dw_geosearch
 mode: default
+content:
+  dw_dealership:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
 hidden:
   created: true
   uid: true
