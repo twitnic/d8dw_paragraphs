@@ -1,0 +1,5 @@
+d8dw_paragraphs.admin_settings_form:
+  title: 'Drupal 8 Datenwerk-Paragraphs Settings'
+  parent: system.admin_config_system
+  description: 'Configure Datenwerk Paragraphs'
+  route_name: d8dw_paragraphs.admin_settings_form

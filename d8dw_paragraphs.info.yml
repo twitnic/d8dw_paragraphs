@@ -3,6 +3,7 @@ type: module
 description: A suite of Paragraph bundles made with the Boostrap framework.
 # core: 8.x
 package: Datenwerk
+configure: d8dw_paragraphs.admin_settings_form
 dependencies:
   - entity_reference_revisions
   - field
@@ -18,7 +19,7 @@ dependencies:
   - views
   - viewsreference
 
-version: 8.x-0.2-dev5'
+version: 8.x-0.2-dev6'
 core: 8.x
 project: d8dw_paragraphs
 datestamp: 1507604048
