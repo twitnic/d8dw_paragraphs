@@ -2,8 +2,7 @@
 
 # Changelog
 
-* 0.2.6 : Bugfix in File-Namings
-* 0.2.5 : Bundle Error Bugfix
+* 0.2.5 : Bugfix in File-Namings
 * 0.2.4 : added missing field.storage.paragraph.dw_teaser_field
 * 0.2.3 : corrected readme.md
 * 0.2.2 : corrected info.yml
