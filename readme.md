@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.2.7 : Added Settings-Form
 * 0.2.6 : Added Option-List to Geosearch and some yml Files
 * 0.2.5 : Bugfix in File-Namings
 * 0.2.4 : added missing field.storage.paragraph.dw_teaser_field
