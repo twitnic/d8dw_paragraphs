@@ -2,4 +2,4 @@ langcode: en
 status: true
 dependencies: {  }
 id: dw_teaser
-label: DwTeaser
+label: Teaser

@@ -1,5 +1,13 @@
 {
   "name": "twitnic/d8dw_paragraphs",
+  "authors": [
+    {
+      "name": "Dominic Richter",
+      "email": "dominic.richter@datenwerk.de",
+      "homepage": "https://www.datenwerk.de",
+      "role": "Developer"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "drupal",
