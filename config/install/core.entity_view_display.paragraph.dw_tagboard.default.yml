@@ -2,17 +2,135 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dw_geosearch.dw_dealership
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.field.paragraph.dw_tagboard.tgb_animation_type
+    - field.field.paragraph.dw_tagboard.tgb_auto_load
+    - field.field.paragraph.dw_tagboard.tgb_feed_type
+    - field.field.paragraph.dw_tagboard.tgb_fixed_height
+    - field.field.paragraph.dw_tagboard.tgb_font_color
+    - field.field.paragraph.dw_tagboard.tgb_gutter
+    - field.field.paragraph.dw_tagboard.tgb_hashtag_color
+    - field.field.paragraph.dw_tagboard.tgb_in_frame_modals
+    - field.field.paragraph.dw_tagboard.tgb_inverted
+    - field.field.paragraph.dw_tagboard.tgb_layout
+    - field.field.paragraph.dw_tagboard.tgb_media_only
+    - field.field.paragraph.dw_tagboard.tgb_mobile_count
+    - field.field.paragraph.dw_tagboard.tgb_post_count
+    - field.field.paragraph.dw_tagboard.tgb_rounded_corners
+    - field.field.paragraph.dw_tagboard.tgb_show_partial_rows
+    - field.field.paragraph.dw_tagboard.tgb_slug
+    - field.field.paragraph.dw_tagboard.tgb_toolbar
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.default
+id: paragraph.dw_tagboard.default
 targetEntityType: paragraph
-bundle: dw_geosearch
+bundle: dw_tagboard
 mode: default
 content:
-  dw_dealership:
+  tgb_animation_type:
     weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_auto_load:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_feed_type:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_fixed_height:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_font_color:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_gutter:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_hashtag_color:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_in_frame_modals:
+    weight: 7
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_inverted:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_layout:
+    weight: 9
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_media_only:
+    weight: 10
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_mobile_count:
+    weight: 11
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_post_count:
+    weight: 12
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_rounded_corners:
+    weight: 13
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_show_partial_rows:
+    weight: 14
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  tgb_slug:
+    weight: 15
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  tgb_toolbar:
+    weight: 16
     label: hidden
     settings: {  }
     third_party_settings: {  }

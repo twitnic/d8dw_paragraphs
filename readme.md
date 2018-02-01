@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.3.1 : Hotfix dw_tagboard
 * 0.3.0 : Hotfix
 * 0.2.8 : Added dw_tagboard
 * 0.2.7 : Added Settings-Form
