@@ -40,6 +40,9 @@ function d8dw_paragraphs_theme($existing, $type, $theme, $path) {
     'paragraph__dw_teaser' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__dw_tagboard' => [
+      'base hook' => 'paragraph',
+    ],
   ];
 }
 
