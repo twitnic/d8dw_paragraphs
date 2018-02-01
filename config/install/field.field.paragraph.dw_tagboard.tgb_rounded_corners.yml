@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_rounded_corners
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_tagboard.tgb_rounded_corners
+field_name: tgb_rounded_corners
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
+bundle: dw_tagboard
+label: 'tgb-rounded-corners'
+description: 'Toggles rounded corners on posts.'
 required: false
 translatable: true
 default_value: {  }

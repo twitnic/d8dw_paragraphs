@@ -10,7 +10,7 @@ id: paragraph.dw_tagboard.tgb_auto_load
 field_name: tgb_auto_load
 entity_type: paragraph
 bundle: dw_tagboard
-label: 'Auto-Load'
+label: 'tgb-auto-load'
 description: ''
 required: false
 translatable: true

@@ -2,28 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
-id: paragraph.tgb_animation_type
-field_name: tgb_animation_type
+    - text
+id: paragraph.tgb_font_color
+field_name: tgb_font_color
 entity_type: paragraph
-type: list_string
-settings:
-  allowed_values:
-    -
-      value: default
-      label: 'default'
-    -
-      value: fade
-      label: 'fade'
-    -
-      value: flip
-      label: 'flip'
-    -
-      value: scale
-      label: 'scale'
-  allowed_values_function: ''
-module: options
+type: text
+settings: {  }
+module: text
 locked: false
 cardinality: 1
 translatable: true

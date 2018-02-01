@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_show_partial_rows
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_geosearch.tgb_show_partial_rows
+field_name: tgb_show_partial_rows
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
+bundle: dw_tagboard
+label: 'tgb-show-partial-rows'
+description: 'Whether to show the bottom row of the grid even if it has fewer posts than the current number of columns [grid layout only].'
 required: false
 translatable: true
 default_value: {  }

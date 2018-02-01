@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_in_frame_modals
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_tagboard.tgb_in_frame_modals
+field_name: tgb_in_frame_modals
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
+bundle: dw_tagboard
+label: 'tgb-in-frame-modals'
 description: ''
 required: false
 translatable: true

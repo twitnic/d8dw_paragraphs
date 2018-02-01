@@ -2,19 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_post_count
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
-    - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+    - text
+id: paragraph.dw_tagboard.tgb_post_count
+field_name: tgb_post_count
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
+bundle: dw_tagboard
+label: 'tgb-post-count'
+description: 'Limits the number of posts shown.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: text

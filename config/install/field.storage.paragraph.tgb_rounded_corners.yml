@@ -4,8 +4,8 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.tgb_auto_load
-field_name: tgb_auto_load
+id: paragraph.tgb_rounded_corners
+field_name: tgb_rounded_corners
 entity_type: paragraph
 type: list_string
 settings:

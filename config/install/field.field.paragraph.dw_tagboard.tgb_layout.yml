@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_layout
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_tagboard.tgb_layout
+field_name: tgb_layout
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
+bundle: dw_tagboard
+label: 'tgb-layout'
+description: 'Changes the type of layout for the embed. Waterfall is the traditional masonry/mosaic layout, grid sizes posts to a 1:1 aspect ratio.'
 required: false
 translatable: true
 default_value: {  }

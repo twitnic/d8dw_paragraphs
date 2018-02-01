@@ -2,19 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_slug
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_tagboard.tgb_slug
+field_name: tgb_slug
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
-required: false
+bundle: dw_tagboard
+label: 'tgb-slug'
+description: 'Tells the script which tagboard to load [Required]'
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: text

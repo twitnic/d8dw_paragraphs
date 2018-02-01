@@ -10,7 +10,7 @@ id: paragraph.dw_tagboard.tgb_animation_type
 field_name: tgb_animation_type
 entity_type: paragraph
 bundle: dw_tagboard
-label: Animation Type
+label: 'tgb-animation-type'
 description: ''
 required: false
 translatable: true

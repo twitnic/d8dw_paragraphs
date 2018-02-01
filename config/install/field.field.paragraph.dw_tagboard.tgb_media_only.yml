@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_width
-    - paragraphs.paragraphs_type.dw_geosearch
+    - field.storage.paragraph.tgb_media_only
+    - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.dw_dealership
-field_name: dw_dealership
+id: paragraph.dw_tagboard.tgb_media_only
+field_name: tgb_media_only
 entity_type: paragraph
-bundle: dw_geosearch
-label: Dealership
-description: ''
+bundle: dw_tagboard
+label: 'tgb-media-only'
+description: 'Toggles whether or not text posts are filtered out.'
 required: false
 translatable: true
 default_value: {  }

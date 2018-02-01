@@ -4,8 +4,8 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.tgb_auto_load
-field_name: tgb_auto_load
+id: paragraph.tgb_show_partial_rows
+field_name: tgb_show_partial_rows
 entity_type: paragraph
 type: list_string
 settings:

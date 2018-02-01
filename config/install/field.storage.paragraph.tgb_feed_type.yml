@@ -4,18 +4,18 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.tgb_auto_load
-field_name: tgb_auto_load
+id: paragraph.tgb_feed_type
+field_name: tgb_feed_type
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: true
-      label: 'true'
+      value: default
+      label: 'default'
     -
-      value: false
-      label: 'false'
+      value: auto
+      label: 'auto'
   allowed_values_function: ''
 module: options
 locked: false

@@ -4,18 +4,21 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.tgb_auto_load
-field_name: tgb_auto_load
+id: paragraph.tgb_toolbar
+field_name: tgb_toolbar
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: true
-      label: 'true'
+      value: light
+      label: 'light'
     -
-      value: false
-      label: 'false'
+      value: dark
+      label: 'dark'
+    -
+      value: none
+      label: 'none'
   allowed_values_function: ''
 module: options
 locked: false
