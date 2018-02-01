@@ -25,5 +25,10 @@
     "source": "https://github.com/twitnic/d8dw_paragraphs"
   },
   "require": {
+    "drupal/paragraphs": "1.1",
+    "drupal/file_browser": "~1.0",
+    "drupal/ctools": "^3.0",
+    "drupal/file_entity": "~2.0",
+    "composer/installers": "^1.0"
   }
 }
