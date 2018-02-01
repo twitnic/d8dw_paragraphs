@@ -57,17 +57,17 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 
     <!-- TAGBORD-INTEGRATION -->
     <div
-            class="<?php print $zwicklslide_el_tgbclass; ?>"
-            tgb-slug="<?php print $zwicklslide_el_tgbslug; ?>"
-            tgb-layout="<?php print $zwicklslide_el_tgblayout; ?>"
-            tgb-gutter="<?php print $zwicklslide_el_tgbgutter; ?>"
-            tgb-feed-type="<?php print $zwicklslide_el_tgbfeedtype; ?>"
-            tgb-inverted="<?php print $zwicklslide_el_tgbinverted; ?>"
-            tgb-toolbar="<?php print $zwicklslide_el_tgbtoolbar; ?>"
-            tgb-animation-type="<?php print $zwicklslide_el_tgbanimationtype; ?>"
-            tgb-hashtag-color="<?php print $zwicklslide_el_tgbhashtagcolor; ?>"
-            tgb-font-color="<?php print $zwicklslide_el_tgbfontcolor; ?>"
-            tgb-fixed-height="true">
+      class="tagboard"
+      tgb-slug="{{ content.tgb_slug.0['#url'] }}"
+      tgb-layout="{{ content.tgb_layout.0['#url'] }}"
+      tgb-gutter="{{ content.tgb_gutter.0['#url'] }}"
+      tgb-feed-type="{{ content.tgb_feed_type.0['#url'] }}"
+      tgb-inverted="{{ content.tgb_inverted.0['#url'] }}"
+      tgb-toolbar="{{ content.tgb_toolbar.0['#url'] }}"
+      tgb-animation-type="{{ content.tgb_animation_type.0['#url'] }}"
+      tgb-hashtag-color="{{ content.tgb_hashtag_color.0['#url'] }}"
+      tgb-font-color="{{ content.tgb_font_color.0['#url'] }}"
+      tgb-fixed-height="{{ content.tgb_fixed_height.0['#url'] }}">
     </div>
 
   </div>

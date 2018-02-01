@@ -4,24 +4,24 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.dw_align
-field_name: dw_align
+id: paragraph.tgb_animation_type
+field_name: tgb_animation_type
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: paragraph--align--topleft
-      label: 'Top Left'
+      value: default
+      label: 'default'
     -
-      value: paragraph--align--ropright
-      label: 'Top Right'
+      value: fade
+      label: 'fade'
     -
-      value: paragraph--align--bottomleft
-      label: 'Bottom Left'
+      value: flip
+      label: 'flip'
     -
-      value: paragraph--align--bottomright
-      label: 'Bottom Right'
+      value: scale
+      label: 'scale'
   allowed_values_function: ''
 module: options
 locked: false
