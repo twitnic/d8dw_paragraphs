@@ -11,7 +11,7 @@ field_name: tgb_post_count
 entity_type: paragraph
 bundle: dw_tagboard
 label: 'tgb-post-count'
-description: 'Limits the number of posts shown.'
+description: 'Sets the initial number of posts on the tagboard.'
 required: false
 translatable: false
 default_value: {  }

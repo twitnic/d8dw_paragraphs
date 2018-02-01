@@ -11,7 +11,7 @@ field_name: tgb_fixed_height
 entity_type: paragraph
 bundle: dw_tagboard
 label: 'tgb-fixed-height'
-description: ''
+description: 'Toggles whether or not the tagboard container attempts to grow to accommodate all the posts.'
 required: false
 translatable: true
 default_value: {  }

@@ -11,7 +11,7 @@ field_name: tgb_feed_type
 entity_type: paragraph
 bundle: dw_tagboard
 label: 'tgb-feed-type'
-description: ''
+description: 'Toggles whether or not new posts are automatically shown.'
 required: false
 translatable: true
 default_value: {  }

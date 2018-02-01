@@ -11,7 +11,7 @@ field_name: tgb_in_frame_modals
 entity_type: paragraph
 bundle: dw_tagboard
 label: 'tgb-in-frame-modals'
-description: ''
+description: 'Whether to have post detail modals open within the tagboard embed iframe, or within the parent window.'
 required: false
 translatable: true
 default_value: {  }
