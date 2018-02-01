@@ -6,7 +6,7 @@ dependencies:
     - paragraphs.paragraphs_type.dw_tagboard
   module:
     - options
-id: paragraph.dw_geosearch.tgb_show_partial_rows
+id: paragraph.dw_tagboard.tgb_show_partial_rows
 field_name: tgb_show_partial_rows
 entity_type: paragraph
 bundle: dw_tagboard
