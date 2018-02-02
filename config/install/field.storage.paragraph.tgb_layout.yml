@@ -16,6 +16,9 @@ settings:
     -
       value: grid
       label: 'grid'
+    -
+      value: filmstrip
+      label: 'filmstrip'
   allowed_values_function: ''
 module: options
 locked: false

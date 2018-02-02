@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.3.4 : Added dw_tagboard Layout filmstrip
 * 0.3.3 : Template fixes
 * 0.3.2 : Hotfix dw_tagboard
 * 0.3.1 : Hotfix dw_tagboard
