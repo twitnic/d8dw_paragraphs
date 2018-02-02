@@ -1,0 +1,6 @@
+d8dw_paragraphs.dw_tagboard:
+  remote: https://github.com/twitnic/d8dw_paragraphs
+  header: true
+  version: 0.3.5
+  js:
+    https://static.tagboard.com/public/js/embedAdvanced.js: { type: external, preprocess: false, minified: false }
