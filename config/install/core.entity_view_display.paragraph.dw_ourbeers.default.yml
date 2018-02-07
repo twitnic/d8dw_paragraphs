@@ -25,11 +25,10 @@ content:
     type: string
   dw_ourbeers_beertext:
     weight: 1
-    settings:
-      rows: 5
-      placeholder: ''
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    type: text_long
+    type: text_default
   dw_ourbeers_kachelimage:
     weight: 2
     label: hidden

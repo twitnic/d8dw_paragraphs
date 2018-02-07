@@ -48,11 +48,10 @@ content:
     type: text_long
   dw_traditionandorigin_text:
     weight: 4
-    settings:
-      rows: 5
-      placeholder: ''
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    type: text_long
+    type: text_default
 hidden:
   created: true
   uid: true

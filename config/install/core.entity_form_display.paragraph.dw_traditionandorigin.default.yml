@@ -51,7 +51,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_long
+    type: text_textarea
 hidden:
   created: true
   uid: true
