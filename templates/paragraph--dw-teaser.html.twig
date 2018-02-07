@@ -143,11 +143,10 @@
 {# Prints div with classes, and content without Width and Background. #}
 <div{{ attributes.addClass(classes) }}>
     <div class="paragraph__column {{ content.dw_align.0 }}">
-        {{ title_suffix }}
         {% if content.dw_link|render is not empty %}
         <a href="{{ content.dw_link.0['#url'] }}">
             {% endif %}
-            {{ content|without('dw_width', 'dw_background', 'dw_link') }}
+            {{ content|without('dw_width', 'dw_background', 'dw_link', 'dw_align') }}
             {% if content.dw_link|render is not empty %}
         </a>
         {% endif %}
