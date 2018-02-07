@@ -5,8 +5,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.dw_teaser_field
-field_name: dw_teaser_field
+id: paragraph.dw_teaser_field_desktop
+field_name: dw_teaser_field_desktop
 entity_type: paragraph
 type: image
 settings:
