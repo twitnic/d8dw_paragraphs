@@ -63,7 +63,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: text_long
   dw_align:
     weight: 7
     settings: {  }

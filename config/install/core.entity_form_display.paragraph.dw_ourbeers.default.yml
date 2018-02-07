@@ -29,7 +29,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: text_long
   dw_ourbeers_kachelimage:
     weight: 3
     settings:
