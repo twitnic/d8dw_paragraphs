@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.dw_teaser_field_desktop
-    - paragraphs.paragraphs_type.dw_teaser_desktop
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - image
 id: paragraph.dw_teaser.dw_teaser_field_desktop
