@@ -4,8 +4,8 @@ dependencies:
   config:
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_headline
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_image
-    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imageheadline
-    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imagesubline
+    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imghead
+    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imgesub
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_text
     - paragraphs.paragraphs_type.dw_traditionandorigin
   module:
@@ -31,14 +31,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-  dw_traditionandorigin_imageheadline:
+  dw_traditionandorigin_imghead:
     weight: 2
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-  dw_traditionandorigin_imagesubline:
+  dw_traditionandorigin_imgsub:
     weight: 3
     settings:
       rows: 5

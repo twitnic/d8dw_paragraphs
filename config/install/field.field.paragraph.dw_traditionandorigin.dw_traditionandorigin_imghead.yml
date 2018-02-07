@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_traditionandorigin_imageheadline
+    - field.storage.paragraph.dw_traditionandorigin_imghead
     - paragraphs.paragraphs_type.dw_traditionandorigin
   module:
     - text
-id: paragraph.dw_traditionandorigin.dw_traditionandorigin_imageheadline
-field_name: dw_traditionandorigin_imageheadline
+id: paragraph.dw_traditionandorigin.dw_traditionandorigin_imghead
+field_name: dw_traditionandorigin_imghead
 entity_type: paragraph
 bundle: dw_traditionandorigin
 label: 'Headline under Image'

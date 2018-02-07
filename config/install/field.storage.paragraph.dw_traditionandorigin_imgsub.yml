@@ -4,8 +4,8 @@ dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.dw_traditionandorigin_imagesubline
-field_name: dw_traditionandorigin_imagesubline
+id: paragraph.dw_traditionandorigin_imgsub
+field_name: dw_traditionandorigin_imgsub
 entity_type: paragraph
 type: text_long
 settings: {  }
