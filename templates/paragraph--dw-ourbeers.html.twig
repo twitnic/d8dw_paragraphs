@@ -38,20 +38,6 @@
 #}
 
 
-{# Renders Width field. #}
-{# Sets class name from values in database. #}
-{% if content.dw_width|render %}
-    {% set layout_width = content.dw_width['#items'].getString() %}
-    {% set layout_width_classes = [
-        'paragraph--width--tiny' == layout_width ? 'paragraph--width--tiny',
-        'paragraph--width--narrow' == layout_width ? 'paragraph--width--narrow',
-        'paragraph--width--medium' == layout_width ? 'paragraph--width--medium',
-        'paragraph--width--wide' == layout_width ? 'paragraph--width--wide',
-        'paragraph--width--full' == layout_width ? 'paragraph--width--full',
-    ]
-    %}
-{% endif %}
-
 {# Renders Background field. #}
 {# Sets class name from values in database. #}
 {% if content.dw_background|render %}
@@ -144,19 +130,11 @@
 <div{{ attributes.addClass(classes) }}>
     <div class="paragraph__column">
 
-        <div class="hero {{ content.dw_background.0 }}">
-            {% if content.linkable.0 == 'true' %}
-            <a href="{{ content.dw_link.0['#url'] }}">
-            {% endif %}
-                <picture>
-                    <source media="(min-width: 992px)"
-                            srcset="{{ content.dw_teaser_field_desktop.0 }}">
-                    <img src="{{ content.dw_teaser_field_mobile.0 }}" alt="{{ content.dw_text.0 }}">
-                </picture>
-                <h1 class="{{ content.dw_align.0 }}">{{ content.dw_text.0 }}</h1>
-            {% if content.field_warn == true %}
-            </a>
-            {% endif %}
-        </div>
+<ul>
+    <li>Aufklappimage: {{ content.dw_ourbeers_aufklappimage.0 }}</li>
+    <li>Kachelimage: {{ content.dw_ourbeers_kachelimage.0 }}</li>
+    <li>Headline: {{ content.dw_ourbeers_headline.0 }}</li>
+    <li>Text: {{ content.dw_ourbeers_beertext.0 }}</li>
+</ul>
     </div>
 </div>

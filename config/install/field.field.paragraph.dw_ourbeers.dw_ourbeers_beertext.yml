@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_ourbeers_beertext
+    - paragraphs.paragraphs_type.dw_ourbeers
+  module:
+    - text
+id: paragraph.dw_ourbeers.dw_beertext
+field_name: dw_beertext
+entity_type: paragraph
+bundle: dw_ourbeers
+label: DwOurBeers
+description: 'Text in paragraph box'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

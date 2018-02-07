@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_ourbeers_aufklappimage
+    - paragraphs.paragraphs_type.dw_ourbeers
+  module:
+    - image
+id: paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
+field_name: dw_ourbeers_aufklappimage
+entity_type: paragraph
+bundle: dw_ourbeers
+label: DwOurBeers
+description: 'Image for Breakoutbox of Our Beers'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'our_beers/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

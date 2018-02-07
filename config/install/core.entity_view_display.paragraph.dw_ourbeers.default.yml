@@ -2,39 +2,35 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dw_teaser.dw_background
-    - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
-    - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
-    - field.field.paragraph.dw_teaser.dw_link
-    - field.field.paragraph.dw_teaser.dw_text
-    - field.field.paragraph.dw_teaser.dw_width
-    - field.field.paragraph.dw_teaser.dw_align
-    - paragraphs.paragraphs_type.dw_teaser
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_headline
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
+    - paragraphs.paragraphs_type.dw_ourbeers
   module:
     - image
-    - link
     - text
     - options
-id: paragraph.dw_teaser.default
+id: paragraph.dw_ourbeers.default
 targetEntityType: paragraph
-bundle: dw_teaser
+bundle: dw_ourbeers
 mode: default
 content:
-  dw_background:
+  dw_ourbeers_headline:
     weight: 0
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
-  dw_teaser_field_mobile:
-    weight: 1
-    label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      link_to_entity: false
     third_party_settings: {  }
-    type: image
-  dw_teaser_field_desktop:
+    type: string
+  dw_ourbeers_beertext:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  dw_ourbeers_kachelimage:
     weight: 2
     label: hidden
     settings:
@@ -42,35 +38,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
-  dw_link:
+  dw_ourbeers_aufklappimage:
     weight: 3
     label: hidden
     settings:
-      trim_length: null
-      url_only: false
-      url_plain: false
-      rel: '0'
-      target: '0'
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    type: link_separate
-  dw_width:
-    weight: 4
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
-  dw_text:
-    weight: 5
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-  dw_align:
-    weight: 6
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
+    type: image
 hidden:
   created: true
   uid: true

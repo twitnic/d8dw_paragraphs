@@ -2,67 +2,48 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dw_teaser.dw_background
-    - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
-    - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
-    - field.field.paragraph.dw_teaser.dw_link
-    - field.field.paragraph.dw_teaser.dw_text
-    - field.field.paragraph.dw_teaser.dw_width
-    - field.field.paragraph.dw_teaser.dw_align
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_headline
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.dw_teaser
+    - paragraphs.paragraphs_type.dw_ourbeers
   module:
     - image
-    - link
     - text
-id: paragraph.dw_teaser.default
+id: paragraph.dw_ourbeers.default
 targetEntityType: paragraph
-bundle: dw_teaser
+bundle: dw_ourbeers
 mode: default
 content:
-  dw_background:
-    weight: 0
-    settings: {  }
+  dw_ourbeers_headline:
+    weight: 1
+    settings:
+      size: 6
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
-  dw_teaser_field_mobile:
+    type: string_textfield
+  dw_ourbeers_beertext:
     weight: 2
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
-    type: image_image
-  dw_teaser_field_desktop:
+    type: text_textarea
+  dw_ourbeers_kachelimage:
     weight: 3
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-  dw_link:
+  dw_ourbeers_aufklappimage:
     weight: 4
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: link_default
-  dw_width:
-    weight: 5
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-  dw_text:
-    weight: 6
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-  dw_align:
-    weight: 7
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
+    type: image_image
 hidden:
   created: true
   status: true
