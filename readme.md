@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.3.6 : Corrected Templates and added draft of dw_ourbeers and dw_traditonandorigin
 * 0.3.5 : Added tagboard js
 * 0.3.4 : Added dw_tagboard Layout filmstrip
 * 0.3.3 : Template fixes
