@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_traditionandorigin_imageheadline
+    - paragraphs.paragraphs_type.dw_traditionandorigin
+  module:
+    - text
+id: paragraph.dw_traditionandorigin.dw_traditionandorigin_imageheadline
+field_name: dw_traditionandorigin_imageheadline
+entity_type: paragraph
+bundle: dw_traditionandorigin
+label: 'Headline under Image'
+description: 'Headlinetext under each Image.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_traditionandorigin_imagesubline
+    - paragraphs.paragraphs_type.dw_traditionandorigin
+  module:
+    - text
+id: paragraph.dw_traditionandorigin.dw_traditionandorigin_imagesubline
+field_name: dw_traditionandorigin_imagesubline
+entity_type: paragraph
+bundle: dw_traditionandorigin
+label: 'Image Subline'
+description: 'Text under each Image'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
