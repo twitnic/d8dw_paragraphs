@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.dw_linkable
+    - paragraphs.paragraphs_type.dw_teaser
+  module:
+    - options
+id: paragraph.dw_teaser.dw_linkable
+field_name: dw_linkable
+entity_type: paragraph
+bundle: dw_teaser
+label: DwLinkable
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

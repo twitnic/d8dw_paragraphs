@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
     - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
     - field.field.paragraph.dw_teaser.dw_link
+    - field.field.paragraph.dw_teaser.dw_linkable
     - field.field.paragraph.dw_teaser.dw_text
     - field.field.paragraph.dw_teaser.dw_width
     - field.field.paragraph.dw_teaser.dw_align
@@ -53,20 +54,25 @@ content:
       target: '0'
     third_party_settings: {  }
     type: link_separate
-  dw_width:
+  dw_linkable:
     weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  dw_width:
+    weight: 5
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_key
   dw_text:
-    weight: 5
+    weight: 6
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
   dw_align:
-    weight: 6
+    weight: 7
     label: hidden
     settings: {  }
     third_party_settings: {  }

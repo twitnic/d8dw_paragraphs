@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
     - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
     - field.field.paragraph.dw_teaser.dw_link
+    - field.field.paragraph.dw_teaser.dw_linkable
     - field.field.paragraph.dw_teaser.dw_text
     - field.field.paragraph.dw_teaser.dw_width
     - field.field.paragraph.dw_teaser.dw_align
@@ -46,20 +47,25 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
-  dw_width:
+  dw_linkable:
     weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
-  dw_text:
+  dw_width:
     weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  dw_text:
+    weight: 6
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
   dw_align:
-    weight: 6
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: options_select
