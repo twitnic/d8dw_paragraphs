@@ -5,7 +5,7 @@ dependencies:
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_headline
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_image
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imghead
-    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imgesub
+    - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imgsub
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_text
     - paragraphs.paragraphs_type.dw_traditionandorigin
   module:
