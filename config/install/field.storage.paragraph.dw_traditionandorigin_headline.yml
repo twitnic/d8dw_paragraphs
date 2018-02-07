@@ -4,8 +4,8 @@ dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.dw_tradionandorigin_headline
-field_name: dw_tradionandorigin_headline
+id: paragraph.dw_traditionandorigin_headline
+field_name: dw_traditionandorigin_headline
 entity_type: paragraph
 type: text
 settings: {  }

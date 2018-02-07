@@ -2,6 +2,7 @@
 
 # Changelog
 
+* 0.3.11 : bugfixes
 * 0.3.10 : bugfixes
 * 0.3.9 : dw_traditionandorigin and dw_ourbeers
 * 0.3.8 : bugfixes in yml files

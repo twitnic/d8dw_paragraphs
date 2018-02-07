@@ -5,8 +5,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.dw_tradionandorigin_image
-field_name: dw_tradionandorigin_image
+id: paragraph.dw_traditionandorigin_image
+field_name: dw_traditionandorigin_image
 entity_type: paragraph
 type: image
 settings:
