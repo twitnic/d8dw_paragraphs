@@ -6,8 +6,8 @@ dependencies:
     - paragraphs.paragraphs_type.dw_ourbeers
   module:
     - text
-id: paragraph.dw_ourbeers.dw_beertext
-field_name: dw_beertext
+id: paragraph.dw_ourbeers.dw_ourbeers_beertext
+field_name: dw_ourbeers_beertext
 entity_type: paragraph
 bundle: dw_ourbeers
 label: DwOurBeers
