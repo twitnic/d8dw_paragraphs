@@ -19,11 +19,11 @@ mode: default
 content:
   dw_traditionandorigin_headline:
     weight: 0
-    label: hidden
     settings:
-      link_to_entity: false
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: string
+    type: string_textfield
   dw_traditionandorigin_image:
     weight: 1
     settings:
