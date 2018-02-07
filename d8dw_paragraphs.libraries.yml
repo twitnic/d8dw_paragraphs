@@ -2,5 +2,9 @@ d8dw_paragraphs.dw_tagboard:
   remote: https://github.com/twitnic/d8dw_paragraphs
   header: true
   version: 0.3.5
+  license:
+    name: MIT
+    url: https://github.com/twitnic/d8dw_paragraphs/blob/master/LICENSE
+    gpl-compatible: true
   js:
     https://static.tagboard.com/public/js/embedAdvanced.js: { type: external, preprocess: false, minified: false }
