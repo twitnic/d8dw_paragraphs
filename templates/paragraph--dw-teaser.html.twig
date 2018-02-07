@@ -142,13 +142,17 @@
 
 {# Prints div with classes, and content without Width and Background. #}
 <div{{ attributes.addClass(classes) }}>
-    <div class="paragraph__column {{ content.dw_align.0 }}">
-        {% if content.dw_link|render is not empty %}
-        <a href="{{ content.dw_link.0['#url'] }}">
-            {% endif %}
-            {{ content|without('dw_width', 'dw_background', 'dw_link', 'dw_align') }}
-            {% if content.dw_link|render is not empty %}
-        </a>
-        {% endif %}
+    <div class="paragraph__column">
+
+        <div class="hero {{ content.dw_background.0 }}">
+            <a href="{{ content.dw_link.0['#url'] }}">
+                <picture>
+                    <source media="(min-width: 992px)"
+                            srcset="{{ content.dw_teaser_field_desktop.0 }}">
+                    <img src="{{ content.dw_teaser_field_mobile.0 }}" alt="{{ content.dw_text.0 }}">
+                </picture>
+                <h1 class="{{ content.dw_align.0 }}">{{ content.dw_text.0 }}</h1>
+            </a>
+        </div>
     </div>
 </div>
