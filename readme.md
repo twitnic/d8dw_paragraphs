@@ -2,7 +2,8 @@
 
 # Changelog
 
-* 0.3.8 : dw_traditionandorigin and dw_ourbeers
+* 0.3.10 : bugfixes
+* 0.3.9 : dw_traditionandorigin and dw_ourbeers
 * 0.3.8 : bugfixes in yml files
 * 0.3.6 : Corrected Templates and added draft of dw_ourbeers and dw_traditonandorigin
 * 0.3.5 : Added tagboard js

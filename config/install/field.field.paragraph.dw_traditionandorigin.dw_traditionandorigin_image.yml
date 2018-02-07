@@ -6,7 +6,7 @@ dependencies:
     - paragraphs.paragraphs_type.dw_traditionandorigin
   module:
     - image
-id: paragraph.dw_traditionandorigin.dw_ourbeers_image
+id: paragraph.dw_traditionandorigin.dw_traditionandorigin_image
 field_name: dw_traditionandorigin_image
 entity_type: paragraph
 bundle: dw_traditionandorigin
