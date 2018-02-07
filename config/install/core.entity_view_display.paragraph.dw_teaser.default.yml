@@ -56,9 +56,10 @@ content:
     type: link_separate
   dw_linkable:
     weight: 4
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: list_key
   dw_width:
     weight: 5
     label: hidden
