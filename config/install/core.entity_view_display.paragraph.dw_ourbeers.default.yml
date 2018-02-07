@@ -1,0 +1,76 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dw_teaser.dw_background
+    - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
+    - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
+    - field.field.paragraph.dw_teaser.dw_link
+    - field.field.paragraph.dw_teaser.dw_text
+    - field.field.paragraph.dw_teaser.dw_width
+    - field.field.paragraph.dw_teaser.dw_align
+    - paragraphs.paragraphs_type.dw_teaser
+  module:
+    - image
+    - link
+    - text
+    - options
+id: paragraph.dw_teaser.default
+targetEntityType: paragraph
+bundle: dw_teaser
+mode: default
+content:
+  dw_background:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  dw_teaser_field_mobile:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  dw_teaser_field_desktop:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  dw_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link_separate
+  dw_width:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+  dw_text:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  dw_align:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+hidden:
+  created: true
+  uid: true
