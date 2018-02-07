@@ -37,7 +37,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    type: string_textfield
   dw_traditionandorigin_imgsub:
     weight: 3
     settings:
