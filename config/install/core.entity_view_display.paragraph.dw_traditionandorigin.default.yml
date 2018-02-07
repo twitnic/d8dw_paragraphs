@@ -41,11 +41,10 @@ content:
     type: string
   dw_traditionandorigin_imgsub:
     weight: 3
-    settings:
-      rows: 5
-      placeholder: ''
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    type: text_long
+    type: text_default
   dw_traditionandorigin_text:
     weight: 4
     label: hidden
