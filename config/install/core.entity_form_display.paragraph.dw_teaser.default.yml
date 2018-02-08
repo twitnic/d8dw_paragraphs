@@ -23,11 +23,13 @@ mode: default
 content:
   dw_background:
     weight: 0
+    label: show
     settings: {  }
     third_party_settings: {  }
     type: options_select
   dw_teaser_field_mobile:
     weight: 1
+    label: show
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -35,6 +37,7 @@ content:
     type: image_image
   dw_teaser_field_desktop:
     weight: 2
+    label: show
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -42,6 +45,7 @@ content:
     type: image_image
   dw_link:
     weight: 3
+    label: show
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -49,22 +53,26 @@ content:
     type: link_default
   dw_linkable:
     weight: 4
+    label: show
     settings: {  }
     third_party_settings: {  }
     type: options_select
   dw_width:
     weight: 5
+    label: show
     settings: {  }
     third_party_settings: {  }
     type: options_select
   dw_text:
     weight: 6
+    label: show
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
   dw_align:
+    label: show
     weight: 7
     settings: {  }
     third_party_settings: {  }

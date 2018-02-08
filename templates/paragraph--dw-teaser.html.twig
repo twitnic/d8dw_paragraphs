@@ -148,12 +148,13 @@
             {% if content.linkable.0 == 'true' %}
             <a href="{{ content.dw_link.0['#url'] }}">
             {% endif %}
-                <picture>
-                    <source media="(min-width: 992px)"
-                            srcset="{{ content.dw_teaser_field_desktop.0 }}">
-                    <img src="{{ content.dw_teaser_field_mobile.0 }}" alt="{{ content.dw_text.0 }}">
-                </picture>
-                <h1 class="{{ content.dw_align.0 }}">{{ content.dw_text.0 }}</h1>
+
+              <picture>
+                <source media="(min-width: 992px)"
+                        srcset="{{ file_url(content.dw_teaser_field_desktop|field_target_entity.uri.value) }}">
+                <img src="{{ file_url(content.dw_teaser_field_mobile|field_target_entity.uri.value) }}" alt="{{ content.dw_text.0 }}">
+              </picture>
+              <h1 class="{{ content.linkable.0 }}">{{ content.dw_text.0 }}</h1>
             {% if content.field_warn == true %}
             </a>
             {% endif %}
