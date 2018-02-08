@@ -145,7 +145,7 @@
     <div class="paragraph__column">
 
         <div class="hero {{ content.dw_background.0 }}">
-            {% if content.linkable.0 == 'true' %}
+            {% if content.dw_linkable.0 == 'true' %}
             <a href="{{ content.dw_link.0['#url'] }}">
             {% endif %}
 
@@ -154,8 +154,8 @@
                         srcset="{{ file_url(content.dw_teaser_field_desktop|field_target_entity.uri.value) }}">
                 <img src="{{ file_url(content.dw_teaser_field_mobile|field_target_entity.uri.value) }}" alt="{{ content.dw_text.0 }}">
               </picture>
-              <h1 class="{{ content.linkable.0 }}">{{ content.dw_text.0 }}</h1>
-            {% if content.field_warn == true %}
+              <h1 class="{{ content.dw_align.0 }}">{{ content.dw_text.0 }}</h1>
+            {% if content.dw_linkable == 'true' %}
             </a>
             {% endif %}
         </div>
