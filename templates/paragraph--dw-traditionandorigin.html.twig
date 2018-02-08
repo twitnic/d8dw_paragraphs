@@ -64,15 +64,17 @@
 <div{{ attributes.addClass(classes) }}>
     <div class="paragraph__column">
 
-      <p>Headline: {{ content.dw_traditionandorigin_headline.0 }}</p>
-      <p>Text: {{ content.dw_traditionandorigin_text.0 }}</p>
 
-      {{ dw_traditionandorigin_image }}
+            <tradition-und-herkunft
+              heading="{{ content.dw_traditionandorigin_headline.0 }}"
+              subline="{{ content.dw_traditionandorigin_text.0 }}"
+              :images="[
+              {% for i in 0..content.dw_traditionandorigin_image|length %}
+                {src: '{{ file_url(content.dw_traditionandorigin_image[i]|field_target_entity.uri.value) }}', heading: '{{ content.dw_traditionandorigin_imghead[i] }}', subline: '{{ content.dw_traditionandorigin_imgsub[i] }}'},
+              {%endfor%}
+              ]">
+            </tradition-und-herkunft>
 
 
-<ul>
-    <li>Imageheadline: {{ content.dw_traditionandorigin_imghead.0 }}</li>
-    <li>Imagesubline: {{ content.dw_traditionandorigin_imgsub.0 }}</li>
-</ul>
     </div>
 </div>
