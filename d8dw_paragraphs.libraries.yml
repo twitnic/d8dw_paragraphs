@@ -1,4 +1,4 @@
-d8dw_paragraphs.dw_tagboard:
+dw_tagboard:
   remote: https://github.com/twitnic/d8dw_paragraphs
   header: true
   version: 0.3.5
