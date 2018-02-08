@@ -13,7 +13,7 @@ bundle: dw_geosearch
 mode: default
 content:
   dw_dealership:
-    label: show
+    label: 'Brand'
     weight: 0
     settings: {  }
     third_party_settings: {  }

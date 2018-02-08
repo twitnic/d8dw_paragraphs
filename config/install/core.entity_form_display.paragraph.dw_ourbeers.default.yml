@@ -18,7 +18,7 @@ mode: default
 content:
   dw_ourbeers_headline:
     weight: 1
-    label: show
+    label: 'Headline'
     settings:
       size: 6
       placeholder: ''
@@ -26,7 +26,7 @@ content:
     type: string_textfield
   dw_ourbeers_beertext:
     weight: 2
-    label: show
+    label: 'Beertext'
     settings:
       rows: 5
       placeholder: ''
@@ -34,7 +34,7 @@ content:
     type: text_textarea
   dw_ourbeers_kachelimage:
     weight: 3
-    label: show
+    label: 'Kachelimage'
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -42,7 +42,7 @@ content:
     type: image_image
   dw_ourbeers_aufklappimage:
     weight: 4
-    label: show
+    label: 'Aufklappimage'
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

@@ -19,7 +19,7 @@ mode: default
 content:
   dw_traditionandorigin_headline:
     weight: 0
-    label: show
+    label: 'Headline'
     settings:
       size: 60
       placeholder: ''
@@ -27,7 +27,7 @@ content:
     type: string_textfield
   dw_traditionandorigin_image:
     weight: 1
-    label: show
+    label: 'Image'
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -35,14 +35,14 @@ content:
     type: image_image
   dw_traditionandorigin_imghead:
     weight: 2
-    label: show
+    label: 'Image Head'
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string_textfield
   dw_traditionandorigin_imgsub:
     weight: 3
-    label: show
+    label: 'Image Subline'
     settings:
       rows: 5
       placeholder: ''
@@ -50,7 +50,7 @@ content:
     type: text_textarea
   dw_traditionandorigin_text:
     weight: 4
-    label: show
+    label: 'Text (Left)'
     settings:
       rows: 5
       placeholder: ''

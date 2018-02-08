@@ -30,31 +30,31 @@ mode: default
 content:
   tgb_animation_type:
     weight: 0
-    label: show
+    label: 'tgb-animation-type'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_auto_load:
     weight: 1
-    label: show
+    label: 'tgb-auto-load'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_feed_type:
     weight: 2
-    label: show
+    label: 'tgb-feed-type'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_fixed_height:
     weight: 3
-    label: show
+    label: 'tgb-fixed-height'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_font_color:
     weight: 4
-    label: show
+    label: 'tgb-font-color'
     settings:
       size: 6
       placeholder: '00AEDE'
@@ -62,7 +62,7 @@ content:
     type: string_textfield
   tgb_gutter:
     weight: 5
-    label: show
+    label: 'tgb-gutter'
     settings:
       size: 4
       placeholder: ''
@@ -70,7 +70,7 @@ content:
     type: string_textfield
   tgb_hashtag_color:
     weight: 6
-    label: show
+    label: 'tgb-hashtag-color'
     settings:
       size: 6
       placeholder: '00AEDE'
@@ -78,31 +78,31 @@ content:
     type: string_textfield
   tgb_in_frame_modals:
     weight: 7
-    label: show
+    label: 'tgb-in-frame-modals'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_inverted:
     weight: 8
-    label: show
+    label: 'tgb-inverted'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_layout:
     weight: 9
-    label: show
+    label: 'tgb-layout'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_media_only:
     weight: 10
-    label: show
+    label: 'tgb-media-only'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_mobile_count:
     weight: 11
-    label: show
+    label: 'tgb-mobile-count'
     settings:
       size: 2
       placeholder: ''
@@ -110,7 +110,7 @@ content:
     type: string_textfield
   tgb_post_count:
     weight: 12
-    label: show
+    label: 'tgb-post-count'
     settings:
       size: 2
       placeholder: ''
@@ -118,19 +118,19 @@ content:
     type: string_textfield
   tgb_rounded_corners:
     weight: 13
-    label: show
+    label: 'tgb-rounded-corners'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_show_partial_rows:
     weight: 14
-    label: show
+    label: 'tgb-show-partial-rows'
     settings: {  }
     third_party_settings: {  }
     type: options_select
   tgb_slug:
     weight: 15
-    label: show
+    label: 'tgb-slug'
     settings:
       size: 64
       placeholder: ''
@@ -138,7 +138,7 @@ content:
     type: string_textfield
   tgb_toolbar:
     weight: 16
-    label: show
+    label: 'tgb-toolbar'
     settings: {  }
     third_party_settings: {  }
     type: options_select
