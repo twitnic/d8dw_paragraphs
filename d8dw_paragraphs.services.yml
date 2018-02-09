@@ -1,0 +1,6 @@
+services:
+  d8dw_paragraphs.twig_extension:
+    arguments: ['@renderer']
+    class: Drupal\d8dw_paragraphs\TwigExtension\Children
+    tags:
+      - { name: twig.extension }
