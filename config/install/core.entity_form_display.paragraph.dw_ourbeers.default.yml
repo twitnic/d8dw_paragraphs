@@ -22,6 +22,7 @@ content:
     settings:
       size: 60
       placeholder: ''
+      display_label: true
     third_party_settings: {  }
     type: string_textfield
   dw_ourbeers_beertext:
@@ -30,6 +31,7 @@ content:
     settings:
       rows: 5
       placeholder: ''
+      display_label: true
     third_party_settings: {  }
     type: text_textarea
   dw_ourbeers_kachelimage:
@@ -38,6 +40,7 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+      display_label: true
     third_party_settings: {  }
     type: image_image
   dw_ourbeers_aufklappimage:
@@ -46,6 +49,7 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+      display_label: true
     third_party_settings: {  }
     type: image_image
 hidden:

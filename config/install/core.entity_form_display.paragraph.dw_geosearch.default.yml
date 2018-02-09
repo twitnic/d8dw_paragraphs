@@ -15,7 +15,8 @@ content:
   dw_dealership:
     label: 'Brand'
     weight: 0
-    settings: {  }
+    settings:
+      display_label: true
     third_party_settings: {  }
     type: options_select
 hidden:
