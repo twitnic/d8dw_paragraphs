@@ -62,13 +62,13 @@
 
 {# Prints div with classes, and content without Width and Background. #}
 <div{{ attributes.addClass(classes) }}>
-  <div class="paragraph__column">
+    <div class="paragraph__column">
 
-    <tradition-und-herkunft
-        heading="{{ content.dw_traditionandorigin_headline.0 }}"
-        subline="{{ content.dw_traditionandorigin_text.0 }}"
-        :images="[ {% for i in content.dw_traditionandorigin_image | children %} { src: '{{ file_url(content.dw_traditionandorigin_image[loop.index0]['#url'].uri) }}', heading: '{{ content.dw_traditionandorigin_imghead[loop.index0] }}', subline: '{{ content.dw_traditionandorigin_imgsub[loop.index0] }}'}, {%endfor%} ]">
-    </tradition-und-herkunft>
+        <tradition-und-herkunft
+            heading="{{ content.dw_traditionandorigin_headline.0 | e('js') }}"
+            subline="{{ content.dw_traditionandorigin_text.0 | e('js') }}"
+            :images="[ {% for i in content.dw_traditionandorigin_image | children %} { src: '{{ file_url(content.dw_traditionandorigin_image[loop.index0]['#url'].uri) }}', heading: '{{ content.dw_traditionandorigin_imghead[loop.index0] | e('js') }}', subline: '{{ content.dw_traditionandorigin_imgsub[loop.index0] | e('js') }}'}, {%endfor%} ]">
+        </tradition-und-herkunft>
 
-  </div>
+    </div>
 </div>
