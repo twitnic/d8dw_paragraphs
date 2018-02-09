@@ -13,8 +13,8 @@ bundle: dw_tagboard
 label: 'tgb-hashtag-color'
 description: 'Color of links and hashtag.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

@@ -13,8 +13,8 @@ bundle: dw_traditionandorigin
 label: Headline
 description: 'Headlinetext on the left side.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

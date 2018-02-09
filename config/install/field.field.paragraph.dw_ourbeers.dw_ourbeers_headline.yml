@@ -13,8 +13,8 @@ bundle: dw_ourbeers
 label: DwOurBeers
 description: 'Headlinetext in Pragraph box'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

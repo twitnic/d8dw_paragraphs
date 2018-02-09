@@ -13,8 +13,8 @@ bundle: dw_tagboard
 label: 'tgb-mobile-count'
 description: 'Limits the number of posts shown on mobile.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

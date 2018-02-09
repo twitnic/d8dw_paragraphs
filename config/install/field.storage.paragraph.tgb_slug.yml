@@ -7,8 +7,11 @@ dependencies:
 id: paragraph.tgb_slug
 field_name: tgb_slug
 entity_type: paragraph
-type: text
-settings: {  }
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: text
 locked: false
 cardinality: 1
