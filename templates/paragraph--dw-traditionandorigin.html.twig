@@ -69,7 +69,7 @@
       subline="{{ content.dw_traditionandorigin_text.0 }}"
       :images="[
               {% for i in content.dw_traditionandorigin_image | children %}
-                {{ i }} - {src: '{{ file_url(content.dw_traditionandorigin_image[i]|field_target_entity.uri.value) }}', heading: '{{ content.dw_traditionandorigin_imghead[i] }}', subline: '{{ content.dw_traditionandorigin_imgsub[i] }}'},
+                {src: '{{ file_url(content.dw_traditionandorigin_image[i]|field_target_entity.uri.value) }}', heading: '{{ content.dw_traditionandorigin_imghead[i] }}', subline: '{{ content.dw_traditionandorigin_imgsub[i] }}'},
               {%endfor%}
               ]">
     </tradition-und-herkunft>
