@@ -41,23 +41,23 @@
 
 {# The template default set classes. #}
 {%
-  set classes = [
-  'paragraph',
-  'paragraph--type--' ~ paragraph.bundle|clean_class,
-  view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 ]
 %}
 
 {# Merges Width field with classes. #}
 {% set width_field = content.dw_width|render %}
 {% if width_field %}
-  {% set classes = classes|merge(layout_width_classes) %}
+    {% set classes = classes|merge(layout_width_classes) %}
 {% endif %}
 
 {# Merges Background field with classes. #}
 {% set background_field = content.dw_background|render %}
 {% if background_field %}
-  {% set classes = classes|merge(layout_background_classes) %}
+    {% set classes = classes|merge(layout_background_classes) %}
 {% endif %}
 
 {# Prints div with classes, and content without Width and Background. #}
@@ -65,13 +65,11 @@
   <div class="paragraph__column">
 
     <tradition-und-herkunft
-      heading="{{ content.dw_traditionandorigin_headline.0 }}"
-      subline="{{ content.dw_traditionandorigin_text.0 }}"
-      :images="[
-              {% for i in content.dw_traditionandorigin_image | children %}
-                {src: '{{ file_url(content.dw_traditionandorigin_image[i]|field_target_entity.uri.value) }}', heading: '{{ content.dw_traditionandorigin_imghead[i] }}', subline: '{{ content.dw_traditionandorigin_imgsub[i] }}'},
-              {%endfor%}
-              ]">
+            heading="{{ content.dw_traditionandorigin_headline.0 }}"
+            subline="{{ content.dw_traditionandorigin_text.0 }}"
+            :images="[ {% for i in content.dw_traditionandorigin_image | children %}
+                { src: '{{ file_url(content.dw_traditionandorigin_image[loop.index0]['#url'].uri) }}', heading: '{{ content.dw_traditionandorigin_imghead[loop.index0] }}', subline: '{{ content.dw_traditionandorigin_imgsub[loop.index0] }}'},
+              {%endfor%} ]">
     </tradition-und-herkunft>
 
 
