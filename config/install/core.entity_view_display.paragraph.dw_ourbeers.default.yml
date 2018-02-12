@@ -26,9 +26,10 @@ content:
   dw_ourbeers_beertext:
     weight: 1
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
   dw_ourbeers_kachelimage:
     weight: 2
     label: hidden

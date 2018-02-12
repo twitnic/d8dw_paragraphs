@@ -9,7 +9,7 @@ field_name: dw_traditionandorigin_imghead
 entity_type: paragraph
 type: string
 settings:
-  max_length: 255
+  max_length: 8
   is_ascii: false
   case_sensitive: false
 module: text

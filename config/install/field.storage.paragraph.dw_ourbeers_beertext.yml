@@ -7,8 +7,11 @@ dependencies:
 id: paragraph.dw_ourbeers_beertext
 field_name: dw_ourbeers_beertext
 entity_type: paragraph
-type: text_long
-settings: {  }
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: text
 locked: false
 cardinality: 1

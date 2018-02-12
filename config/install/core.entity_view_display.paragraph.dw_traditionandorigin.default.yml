@@ -42,15 +42,17 @@ content:
   dw_traditionandorigin_imgsub:
     weight: 3
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
   dw_traditionandorigin_text:
     weight: 4
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
 hidden:
   created: true
   uid: true
