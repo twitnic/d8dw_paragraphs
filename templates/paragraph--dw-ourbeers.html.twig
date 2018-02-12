@@ -129,12 +129,16 @@
 {# Prints div with classes, and content without Width and Background. #}
 <div{{ attributes.addClass(classes) }}>
     <div class="paragraph__column">
+        <content-box
+                heading="{{ content.dw_ourbeers_headline.0 }}"
+                subline="{{ content.dw_ourbeers_beertext.0 }}"
+                :images="[{src: '/themes/custom/hp/images/hp_mood_1.jpg'},{src: '/themes/custom/hp/images/hp_mood_2.jpg'},{src: '/themes/custom/hp/images/hp_mood_3.jpg'}]">
+        </content-box>
 
-<ul>
-    <li>Aufklappimage: {{ content.dw_ourbeers_aufklappimage.0 }}</li>
-    <li>Kachelimage: {{ content.dw_ourbeers_kachelimage.0 }}</li>
-    <li>Headline: {{ content.dw_ourbeers_headline.0 }}</li>
-    <li>Text: {{ content.dw_ourbeers_beertext.0 }}</li>
-</ul>
+
+
+    <p>Aufklappimage: {{ content.dw_ourbeers_aufklappimage.0 }}<br>
+    Kachelimage: {{ content.dw_ourbeers_kachelimage.0 }}</p>
+
     </div>
 </div>
