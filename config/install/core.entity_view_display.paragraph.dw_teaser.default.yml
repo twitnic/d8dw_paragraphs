@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.dw_teaser.dw_background
     - field.field.paragraph.dw_teaser.dw_teaser_field_desktop
     - field.field.paragraph.dw_teaser.dw_teaser_field_mobile
     - field.field.paragraph.dw_teaser.dw_link
@@ -21,12 +20,6 @@ targetEntityType: paragraph
 bundle: dw_teaser
 mode: default
 content:
-  dw_background:
-    weight: 0
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
   dw_teaser_field_mobile:
     weight: 1
     label: hidden
@@ -69,9 +62,10 @@ content:
   dw_text:
     weight: 6
     label: hidden
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
   dw_align:
     weight: 7
     label: hidden

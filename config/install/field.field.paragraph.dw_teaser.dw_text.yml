@@ -13,8 +13,8 @@ bundle: dw_teaser
 label: DwText
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string
