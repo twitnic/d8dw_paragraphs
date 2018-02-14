@@ -3,6 +3,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_headline
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklapphead
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklapptext
+    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappbutton
+    - field.field.paragraph.dw_teaser.dw_linkable
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
@@ -27,7 +31,7 @@ content:
     type: string_textfield
   dw_ourbeers_beertext:
     weight: 2
-    label: 'Beertext'
+    label: 'Text in Kachel (Desktop) links'
     settings:
       rows: 5
       placeholder: ''
@@ -43,8 +47,44 @@ content:
       display_label: true
     third_party_settings: {  }
     type: image_image
-  dw_ourbeers_aufklappimage:
+  dw_ourbeers_aufklapphead:
     weight: 4
+    label: 'Headline in aufgeklapptem Text'
+    settings:
+      size: 60
+      placeholder: ''
+      display_label: true
+    third_party_settings: {  }
+    type: string_textfield
+  dw_ourbeers_aufklapptext:
+    weight: 5
+    label: 'Image Text in aufgeklapptem Bereich'
+    settings:
+      size: 312
+      placeholder: ''
+      display_label: true
+    third_party_settings: {  }
+    type: string_textarea
+  dw_ourbeers_aufklappbutton:
+    weight: 1
+    label: 'Button Text in aufgeklapptem Bereich'
+    settings:
+      size: 60
+      placeholder: ''
+      display_label: true
+    third_party_settings: {  }
+    type: string_textfield
+  dw_linkable:
+    weight: 3
+    label: 'Weblink'
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      display_label: true
+    third_party_settings: {  }
+    type: link_default
+  dw_ourbeers_aufklappimage:
+    weight: 6
     label: 'Aufklappimage'
     settings:
       progress_indicator: throbber

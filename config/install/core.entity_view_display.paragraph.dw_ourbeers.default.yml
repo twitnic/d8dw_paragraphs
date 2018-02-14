@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_headline
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
-    - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
-    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
     - paragraphs.paragraphs_type.dw_ourbeers
   module:
     - image
@@ -30,22 +28,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-  dw_ourbeers_kachelimage:
-    weight: 2
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-  dw_ourbeers_aufklappimage:
-    weight: 3
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
 hidden:
   created: true
   uid: true
