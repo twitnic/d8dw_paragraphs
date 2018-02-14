@@ -19,6 +19,13 @@ content:
       display_label: true
     third_party_settings: {  }
     type: options_select
+  dw_width:
+    weight: 5
+    label: 'CSS Width'
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: options_select
 hidden:
   created: true
   status: true
