@@ -48,7 +48,7 @@ content:
     weight: 3
     label: 'Image Subline'
     settings:
-      size: 255
+      size: 312
       placeholder: ''
       display_label: true
     third_party_settings: {  }
