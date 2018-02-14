@@ -10,8 +10,8 @@ id: paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
 field_name: dw_ourbeers_aufklappimage
 entity_type: paragraph
 bundle: dw_ourbeers
-label: DwOurBeers
-description: 'Image for Breakoutbox of Our Beers'
+label: 'Bild(er) im aufgeklappten Bereich'
+description:
 required: false
 translatable: true
 default_value: {  }

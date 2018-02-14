@@ -10,8 +10,8 @@ id: paragraph.dw_ourbeers.dw_ourbeers_beertext
 field_name: dw_ourbeers_beertext
 entity_type: paragraph
 bundle: dw_ourbeers
-label: DwOurBeers
-description: 'Text in paragraph box'
+label: 'Text in Paragraph-Box / nicht aufgeklappt'
+description: ''
 required: false
 translatable: true
 default_value: {  }

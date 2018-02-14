@@ -10,8 +10,8 @@ id: paragraph.dw_ourbeers.dw_ourbeers_headline
 field_name: dw_ourbeers_headline
 entity_type: paragraph
 bundle: dw_ourbeers
-label: DwOurBeers
-description: 'Headlinetext in Pragraph box'
+label: 'Headlinetext in Pragraph box / nicht aufgeklappt'
+description: ''
 required: false
 translatable: true
 default_value: {  }

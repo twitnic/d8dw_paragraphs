@@ -10,7 +10,7 @@ id: paragraph.dw_ourbeers.dw_ourbeers_kachelimage
 field_name: dw_ourbeers_kachelimage
 entity_type: paragraph
 bundle: dw_ourbeers
-label: DwOurBeers
+label: 'Bild in paragraph box / nicht aufgeklappt'
 description: 'Image in paragraph box'
 required: false
 translatable: true

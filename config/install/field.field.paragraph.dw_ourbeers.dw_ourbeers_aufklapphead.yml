@@ -10,8 +10,8 @@ id: paragraph.dw_ourbeers.dw_ourbeers_aufklapphead
 field_name: dw_ourbeers_aufklapphead
 entity_type: paragraph
 bundle: dw_ourbeers
-label: DwOurBeers
-description: 'Headlinetext in aufgeklapptem Bereich'
+label: 'Headlinetext in aufgeklapptem Bereich'
+description: ''
 required: false
 translatable: true
 default_value: {  }
