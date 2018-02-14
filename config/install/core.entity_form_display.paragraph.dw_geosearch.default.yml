@@ -1,9 +1,10 @@
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
     - field.field.paragraph.dw_geosearch.dw_dealership
     - paragraphs.paragraphs_type.dw_geosearch
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - paragraphs
     - options
@@ -20,7 +21,7 @@ content:
     third_party_settings: {  }
     type: options_select
   dw_width:
-    weight: 5
+    weight: 100
     label: 'CSS Width'
     settings:
       display_label: true

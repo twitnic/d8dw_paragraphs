@@ -1,4 +1,4 @@
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ bundle: dw_ourbeers
 label: DwOurBeers
 description: 'Text in paragraph box'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

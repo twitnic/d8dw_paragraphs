@@ -1,4 +1,4 @@
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
@@ -12,6 +12,7 @@ dependencies:
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
     - image.style.thumbnail
     - paragraphs.paragraphs_type.dw_ourbeers
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - image
     - text
@@ -93,7 +94,7 @@ content:
     third_party_settings: {  }
     type: image_image
   dw_width:
-    weight: 5
+    weight: 7
     label: 'CSS Width'
     settings:
       display_label: true

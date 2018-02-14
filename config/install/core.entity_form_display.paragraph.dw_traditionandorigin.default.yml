@@ -1,4 +1,4 @@
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
@@ -8,6 +8,7 @@ dependencies:
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imgsub
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_text
     - paragraphs.paragraphs_type.dw_traditionandorigin
+    - paragraphs.paragraphs_type.dw_teaser
   module:
     - image
     - text
