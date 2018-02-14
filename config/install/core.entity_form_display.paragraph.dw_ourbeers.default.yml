@@ -10,9 +10,9 @@ dependencies:
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
+    - field.field.paragraph.dw_ourbeers.dw_width
     - image.style.thumbnail
     - paragraphs.paragraphs_type.dw_ourbeers
-    - field.field.paragraph.dw_teaser.dw_width
   module:
     - image
     - text
