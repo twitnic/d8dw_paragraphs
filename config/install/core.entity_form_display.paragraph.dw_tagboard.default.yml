@@ -20,7 +20,7 @@ dependencies:
     - field.field.paragraph.dw_tagboard.tgb_slug
     - field.field.paragraph.dw_tagboard.tgb_toolbar
     - paragraphs.paragraphs_type.dw_tagboard
-    - paragraphs.paragraphs_type.dw_teaser
+    - field.field.paragraph.dw_teaser.dw_width
   module:
     - paragraphs
     - options

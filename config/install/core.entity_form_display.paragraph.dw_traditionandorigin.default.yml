@@ -8,7 +8,7 @@ dependencies:
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_imgsub
     - field.field.paragraph.dw_traditionandorigin.dw_traditionandorigin_text
     - paragraphs.paragraphs_type.dw_traditionandorigin
-    - paragraphs.paragraphs_type.dw_teaser
+    - field.field.paragraph.dw_teaser.dw_width
   module:
     - image
     - text

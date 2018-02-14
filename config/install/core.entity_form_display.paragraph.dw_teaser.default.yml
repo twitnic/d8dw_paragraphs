@@ -10,7 +10,7 @@ dependencies:
     - field.field.paragraph.dw_teaser.dw_width
     - field.field.paragraph.dw_teaser.dw_align
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.dw_teaser
+    - field.field.paragraph.dw_teaser.dw_width
   module:
     - image
     - link
