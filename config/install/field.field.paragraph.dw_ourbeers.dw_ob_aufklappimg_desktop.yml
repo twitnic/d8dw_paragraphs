@@ -2,12 +2,12 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.dw_ourbeers_aufklappimage
+    - field.storage.paragraph.dw_ob_aufklappimg_desktop
     - paragraphs.paragraphs_type.dw_ourbeers
   module:
     - image
-id: paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
-field_name: dw_ourbeers_aufklappimage
+id: paragraph.dw_ourbeers.dw_ob_aufklappimg_desktop
+field_name: dw_ob_aufklappimg_desktop
 entity_type: paragraph
 bundle: dw_ourbeers
 label: 'Bild(er) im aufgeklappten Bereich'
@@ -17,7 +17,7 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: 'our_beers/[date:custom:Y]-[date:custom:m]'
+  file_directory: 'ob_aufklappimg_desktop/[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

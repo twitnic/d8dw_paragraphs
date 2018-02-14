@@ -9,7 +9,8 @@ dependencies:
     - field.field.paragraph.dw_teaser.dw_link
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_beertext
     - field.field.paragraph.dw_ourbeers.dw_ourbeers_kachelimage
-    - field.field.paragraph.dw_ourbeers.dw_ourbeers_aufklappimage
+    - field.field.paragraph.dw_ourbeers.dw_ob_aufklappimg_desktop
+    - field.field.paragraph.dw_ourbeers.dw_ob_aufklappimg_mobile
     - field.field.paragraph.dw_ourbeers.dw_width
     - image.style.thumbnail
     - paragraphs.paragraphs_type.dw_ourbeers
@@ -84,9 +85,18 @@ content:
       display_label: true
     third_party_settings: {  }
     type: link_default
-  dw_ourbeers_aufklappimage:
+  dw_ob_aufklappimg_desktop:
     weight: 6
-    label: 'Aufklappimage'
+    label: 'Aufklappimage Desktop'
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      display_label: true
+    third_party_settings: {  }
+    type: image_image
+  dw_ob_aufklappimg_desktop:
+    weight: 7
+    label: 'Aufklappimage Mobile'
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -94,7 +104,7 @@ content:
     third_party_settings: {  }
     type: image_image
   dw_width:
-    weight: 7
+    weight: 100
     label: 'CSS Width'
     settings:
       display_label: true
