@@ -1,10 +1,10 @@
 dw_tagboard:
-  remote: https://github.com/twitnic/d8dw_paragraphs
+  remote: https://static.tagboard.com/public/js/embedAdvanced.js
   header: true
-  version: 0.3.5
+  version: 1.0.0
   license:
-    name: MIT
-    url: https://github.com/twitnic/d8dw_paragraphs/blob/master/LICENSE
+    name: GPL
+    url: http://www.gnu.org/licenses/gpl-3.0.txt
     gpl-compatible: true
   js:
-    #//static.tagboard.com/public/js/embedAdvanced.js: { type: external, preprocess: false, minified: false }
+    https://static.tagboard.com/public/js/embedAdvanced.js: { type: external }
